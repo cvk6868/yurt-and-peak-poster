@@ -1,0 +1,22 @@
+YURT AND PEAK - INFOPOST-MAKER
+
+Wat zit erin
+- library/        je foto's (p01 t/m p20)
+- photos.json     beschrijving per foto; zet bij plaats_bevestigd op true zodra je zeker weet waar de foto is genomen
+- feiten.md       de enige feiten die de AI mag gebruiken (vul Kirgizië en Oezbekistan zelf aan en controleer ze)
+- muziek/        zet hier je royaltyvrije muziek; de Reel krijgt er dagelijks een (zie muziek/LEESMIJ.txt)
+- render.py       maakt de carrousel (1080x1350) en de Reel (1080x1920, 23 sec, met muziek als muziek/ gevuld is)
+- genereer.py     laat Claude thema en foto's kiezen en roept render.py aan
+
+Proberen
+  python genereer.py --demo      maakt een voorbeeldpost zonder API
+  python genereer.py --prompt    toont de opdracht die naar Claude gaat
+  python genereer.py             echte post (zet eerst ANTHROPIC_API_KEY)
+Het resultaat staat in uit/<datum>_<formaat>/ met caption.txt en controle.txt (welke feiten zijn gebruikt).
+
+Vereist: Python 3 met Pillow, en ffmpeg.
+
+Let op
+- Foto's met herkenbare mensen worden nooit gekozen. Controleer ook of je de rechten hebt op alle foto's.
+- Veel foto's zijn klein (onder 800 pixels). Die staan in de post ongerekt in het midden op een vervaagde achtergrond. Met originelen van de camera of telefoon wordt het scherper.
+- Posten op Instagram is nog niet gekoppeld in deze map.

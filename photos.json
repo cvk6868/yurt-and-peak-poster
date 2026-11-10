@@ -1,0 +1,446 @@
+[
+  {
+    "id": "p01",
+    "bestand": "library/p01.jpg",
+    "beschrijving": "Grijze UAZ-bus met open schuifdeur op een groene weide, dennenbos en berg erachter, blauwe lucht",
+    "tags": [
+      "uaz",
+      "bus",
+      "vervoer",
+      "4x4",
+      "weide",
+      "bos",
+      "berg"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "vervoer",
+      "vrijheid",
+      "route"
+    ],
+    "breedte": 1080,
+    "hoogte": 1080,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p02",
+    "bestand": "library/p02.jpg",
+    "beschrijving": "Natuurlijk warmwaterbad in de rotsen boven een turquoise bergrivier, een man in het bad",
+    "tags": [
+      "warmwaterbron",
+      "bad",
+      "rivier",
+      "rots",
+      "turquoise",
+      "ontspanning"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": true,
+    "past_bij": [
+      "ontspanning",
+      "warmwaterbronnen"
+    ],
+    "breedte": 1600,
+    "hoogte": 1159,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p03",
+    "bestand": "library/p03.jpg",
+    "beschrijving": "Rij witte yurts met patronen op een groene weide, bergen met bos erachter",
+    "tags": [
+      "yurt",
+      "nomaden",
+      "slapen",
+      "weide",
+      "bergen"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "slapen",
+      "cultuur",
+      "yurt"
+    ],
+    "breedte": 576,
+    "hoogte": 768,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p04",
+    "bestand": "library/p04.jpg",
+    "beschrijving": "Dennenbos in een vallei met een beek, zonnige berghelling",
+    "tags": [
+      "bos",
+      "vallei",
+      "beek",
+      "dennen",
+      "natuur",
+      "rust"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "rust"
+    ],
+    "breedte": 918,
+    "hoogte": 594,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p05",
+    "bestand": "library/p05.jpg",
+    "beschrijving": "Kleine waterval en bergbeek tussen groene dennen, rode aarde op de voorgrond",
+    "tags": [
+      "waterval",
+      "beek",
+      "bos",
+      "water",
+      "natuur"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "water"
+    ],
+    "breedte": 1100,
+    "hoogte": 1100,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p06",
+    "bestand": "library/p06.jpg",
+    "beschrijving": "Drie 4x4-voertuigen bij een turquoise bergmeer met dennen, enkele mensen op afstand",
+    "tags": [
+      "4x4",
+      "meer",
+      "vervoer",
+      "groep",
+      "dennen"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": true,
+    "past_bij": [
+      "vervoer",
+      "vrijheid",
+      "groepsreis"
+    ],
+    "breedte": 1000,
+    "hoogte": 667,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p07",
+    "bestand": "library/p07.jpg",
+    "beschrijving": "Rode rotsformaties met dennen onder een blauwe lucht met wolken",
+    "tags": [
+      "rode",
+      "rotsen",
+      "canyon",
+      "bergen"
+    ],
+    "plaats": "Jeti-Ögüz",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "route"
+    ],
+    "breedte": 720,
+    "hoogte": 480,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p08",
+    "bestand": "library/p08.jpg",
+    "beschrijving": "Brede bergvallei met een turquoise rivier, een rotspiek en kleine wandelaars in de verte",
+    "tags": [
+      "bergen",
+      "rivier",
+      "vallei",
+      "wandelaars",
+      "weids"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": true,
+    "past_bij": [
+      "natuur",
+      "weids"
+    ],
+    "breedte": 1024,
+    "hoogte": 768,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p09",
+    "bestand": "library/p09.jpg",
+    "beschrijving": "Turquoise meer tussen steile grijze rotswanden onder een blauwe lucht",
+    "tags": [
+      "meer",
+      "turquoise",
+      "rotsen",
+      "kliffen"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "meer"
+    ],
+    "breedte": 700,
+    "hoogte": 525,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p10",
+    "bestand": "library/p10.jpg",
+    "beschrijving": "Groene rivierdelta met vertakkende beekjes en grazende yaks, bergen op de achtergrond",
+    "tags": [
+      "hoogvlakte",
+      "rivier",
+      "yaks",
+      "dieren",
+      "groen"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "dieren",
+      "weids"
+    ],
+    "breedte": 1600,
+    "hoogte": 1067,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p11",
+    "bestand": "library/p11.jpg",
+    "beschrijving": "Burana-toren, een bakstenen toren bij zonsondergang met bergen erachter",
+    "tags": [
+      "toren",
+      "geschiedenis",
+      "cultuur",
+      "zonsondergang"
+    ],
+    "plaats": "Burana-toren",
+    "plaats_bevestigd": true,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "cultuur",
+      "geschiedenis"
+    ],
+    "breedte": 720,
+    "hoogte": 480,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p12",
+    "bestand": "library/p12.jpg",
+    "beschrijving": "Wit paard met zadel graast bij een bergmeer",
+    "tags": [
+      "paard",
+      "paardrijden",
+      "meer",
+      "gras"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "paardrijden",
+      "activiteit"
+    ],
+    "breedte": 626,
+    "hoogte": 490,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p13",
+    "bestand": "library/p13.jpg",
+    "beschrijving": "Oranje zandheuvels en rotsen onder een heldere lucht, staand formaat",
+    "tags": [
+      "rood",
+      "zand",
+      "canyon",
+      "woestijn",
+      "staand"
+    ],
+    "plaats": "Skazka Canyon",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "canyon"
+    ],
+    "breedte": 768,
+    "hoogte": 1152,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p14",
+    "bestand": "library/p14.jpg",
+    "beschrijving": "Rode rotspiek met struiken onder een blauwe lucht",
+    "tags": [
+      "rode",
+      "rotsen",
+      "canyon",
+      "piek"
+    ],
+    "plaats": "Skazka Canyon",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "canyon"
+    ],
+    "breedte": 1024,
+    "hoogte": 683,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p15",
+    "bestand": "library/p15.jpg",
+    "beschrijving": "Oranje canyonheuvels en een diepblauwe lucht, panorama",
+    "tags": [
+      "oranje",
+      "canyon",
+      "heuvels",
+      "lucht"
+    ],
+    "plaats": "Skazka Canyon",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "canyon"
+    ],
+    "breedte": 1360,
+    "hoogte": 1536,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p16",
+    "bestand": "library/p16.jpg",
+    "beschrijving": "Rode rotspieken onder een blauwe wolkenlucht, schemerlicht",
+    "tags": [
+      "rode",
+      "rotsen",
+      "schemering",
+      "wolken"
+    ],
+    "plaats": "Skazka Canyon",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "canyon",
+      "sfeer"
+    ],
+    "breedte": 1000,
+    "hoogte": 667,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p17",
+    "bestand": "library/p17.jpg",
+    "beschrijving": "Groene vallei in de bergen met een besneeuwde top, tentjes en een huisje, een UAZ rechtsonder, zonlicht op de helling",
+    "tags": [
+      "vallei",
+      "berg",
+      "tenten",
+      "kamp",
+      "sneeuw",
+      "zonlicht",
+      "uaz"
+    ],
+    "plaats": "",
+    "plaats_bevestigd": false,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "weids",
+      "route"
+    ],
+    "breedte": 1500,
+    "hoogte": 1000,
+    "lage_resolutie": false
+  },
+  {
+    "id": "p18",
+    "bestand": "library/p18.jpg",
+    "beschrijving": "Rode rotsformaties met groene valleien en bossen erbij, vanuit de lucht of een hoogte",
+    "tags": [
+      "rode",
+      "rotsen",
+      "vallei",
+      "bos",
+      "overzicht"
+    ],
+    "plaats": "Jeti-Ögüz",
+    "plaats_bevestigd": true,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "route",
+      "overzicht"
+    ],
+    "breedte": 1024,
+    "hoogte": 682,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p19",
+    "bestand": "library/p19.jpg",
+    "beschrijving": "Smalle kloof tussen hoge rode rotswanden",
+    "tags": [
+      "rode",
+      "rotsen",
+      "kloof",
+      "wand"
+    ],
+    "plaats": "Jeti-Ögüz",
+    "plaats_bevestigd": true,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "route"
+    ],
+    "breedte": 1024,
+    "hoogte": 682,
+    "lage_resolutie": true
+  },
+  {
+    "id": "p20",
+    "bestand": "library/p20.jpg",
+    "beschrijving": "Fel turquoise bergmeer met besneeuwde bergen op de achtergrond en een klein figuurtje",
+    "tags": [
+      "meer",
+      "turquoise",
+      "bergen",
+      "sneeuw"
+    ],
+    "plaats": "Chong-Kemin",
+    "plaats_bevestigd": true,
+    "mensen_zichtbaar": false,
+    "past_bij": [
+      "natuur",
+      "meer"
+    ],
+    "breedte": 1024,
+    "hoogte": 682,
+    "lage_resolutie": true
+  }
+]
