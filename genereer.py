@@ -2,7 +2,7 @@
 Gebruik:  python genereer.py            (vraagt Claude, vereist ANTHROPIC_API_KEY)
           python genereer.py --demo     (gebruikt voorbeeld.json, geen API nodig)
           python genereer.py --prompt   (toont alleen de opdracht aan Claude)"""
-import json, os, re, sys, urllib.request, datetime
+import json, os, re, sys, urllib.request, urllib.error, datetime
 import render
 
 MAP = os.path.dirname(os.path.abspath(__file__))
@@ -59,11 +59,18 @@ def vraag_claude(prompt):
     sleutel = os.environ.get("ANTHROPIC_API_KEY")
     if not sleutel:
         sys.exit("Zet eerst ANTHROPIC_API_KEY.")
-    body = json.dumps({"model": MODEL, "max_tokens": 2000, "messages": [{"role": "user", "content": prompt}]}).encode()
+    body = json.dumps({"model": MODEL, "max_tokens": 6000, "messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
         "x-api-key": sleutel, "anthropic-version": "2023-06-01", "content-type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        tekst = json.load(r)["content"][0]["text"]
+    try:
+        with urllib.request.urlopen(req, timeout=180) as r:
+            antwoord = json.load(r)
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Anthropic-fout {e.code}: {e.read().decode(errors='replace')[:500]}")
+    blokken = [b.get("text", "") for b in antwoord.get("content", []) if b.get("type") == "text"]
+    tekst = "\n".join(blokken)
+    if not tekst.strip():
+        sys.exit("Geen tekst in antwoord van Claude. Antwoord (ingekort): " + json.dumps(antwoord)[:600])
     m = re.search(r"\{.*\}", tekst, re.S)
     if not m:
         raise ValueError("Geen JSON in antwoord: " + tekst[:200])
