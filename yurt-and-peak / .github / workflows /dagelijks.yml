@@ -1,0 +1,45 @@
+name: Dagelijkse Instagram-post
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+    inputs:
+      droog:
+        description: "Alleen maken, niet plaatsen (zet op false om echt te plaatsen)"
+        default: "true"
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install pillow requests
+      - name: Post maken en plaatsen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+          CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
+          CLOUDINARY_SECRET: ${{ secrets.CLOUDINARY_SECRET }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.droog }}" = "true" ]; then
+            python dagelijks.py --droog
+          else
+            python dagelijks.py
+          fi
+      - name: Voorbeeld bewaren
+        uses: actions/upload-artifact@v4
+        with:
+          name: laatste-post
+          path: uit/
+      - name: Geschiedenis opslaan
+        run: |
+          git config user.name "yurt-and-peak-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add history.json || true
+          git diff --cached --quiet || (git commit -m "Geschiedenis bijgewerkt" && git push)
